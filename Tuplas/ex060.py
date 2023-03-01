@@ -1,0 +1,11 @@
+tabela = ('Palmeiras', 'Corinthians', 'Fluminense',
+'Atlético', 'Athletico', 'Flamengo', 'Internacional', 'Bragantino', 'Santos', 'São Paulo', 'Botafogo', 'Ceará', 'Coritiba', 'Goiás', 'América', 'Avaí', 'Cuiabá', 'Atlético', 'Juventude', 'Fortaleza' )
+print('-='*55)
+print(f'os cinco primeiros colocados sao {tabela[:5]}')
+print('-='*55)
+print(f'os quatro ultimos colocados sao {tabela[16:]}')
+print('-='*55)
+print(f'Times na ordem alfabetica {sorted(tabela)} ')
+print('-='*55)
+print(f'O do Goias esta na {tabela.index("Goiás")+1}º posição')
+print('-='*55)
